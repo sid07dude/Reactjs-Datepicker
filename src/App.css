@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -28,11 +31,19 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* 
+.modalClass {
+  text-align: center;
+  margin-top: 100px;
+} */
+
+
+/* @import 'loaders.css/src/animations/line-scale.css' */
+
+/* .loader-hidden {
+  display: none;
 }
+.loader-active {
+  display: block;
+} */
